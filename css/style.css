@@ -65,30 +65,34 @@ section{
 }
 
 .isotope-grid{
-    margin: 0 -10px;
+    margin: 0 -7px;
 }
 .isotope-grid .isotope-grid-item{
     width: 25%;
-    padding: 0 10px;
-    margin-bottom: 30px;
+    padding: 0 7px;
+    margin-bottom: 15px;
 }
 .isotope-grid .portfolio-image{
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
+}
+.isotope-grid .isotope-grid-item a{
+    width: 100%;
 }
 .isotope-grid .portfolio-image img{
     height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 .isotope-grid .portfolio-desc h3{
     color: #333;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 1.25;
     transition: all .3s;
 }
 .isotope-grid .portfolio-desc p{
     display: block;
     color: #888;
-    transition: all .3s;
-    margin-top: 5px;
+    font-size: 14px;
+    margin-top: 3px;
 }
